@@ -66,6 +66,89 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 3000);
   }
 
+  // --- Helper: Country Flag Emoji ---
+  function getFlagEmoji(teamName) {
+    if (!teamName) return "⚽";
+    const countryMap = {
+      deutschland: "DE",
+      germany: "DE",
+      norwegen: "NO",
+      norway: "NO",
+      österreich: "AT",
+      austria: "AT",
+      irak: "IQ",
+      iraq: "IQ",
+      jordanien: "JO",
+      jordan: "JO",
+      brasilien: "BR",
+      brazil: "BR",
+      frankreich: "FR",
+      france: "FR",
+      spanien: "ES",
+      spain: "ES",
+      england: "GB",
+      "vereinigtes königreich": "GB",
+      uk: "GB",
+      usa: "US",
+      "vereinigte staaten": "US",
+      argentinien: "AR",
+      argentina: "AR",
+      italien: "IT",
+      italy: "IT",
+      niederlande: "NL",
+      netherlands: "NL",
+      belgien: "BE",
+      belgium: "BE",
+      portugal: "PT",
+      kroatien: "HR",
+      croatia: "HR",
+      marokko: "MA",
+      morocco: "MA",
+      japan: "JP",
+      südkorea: "KR",
+      "south korea": "KR",
+      schweiz: "CH",
+      switzerland: "CH",
+      dänemark: "DK",
+      denmark: "DK",
+      polen: "PL",
+      poland: "PL",
+      mexiko: "MX",
+      mexico: "MX",
+      serbien: "RS",
+      serbia: "RS",
+      uruguay: "UY",
+      senegal: "SN",
+      kamerun: "CM",
+      cameroon: "CM",
+      ghana: "GH",
+      tunesien: "TN",
+      tunisia: "TN",
+      kanada: "CA",
+      canada: "CA",
+      australien: "AU",
+      australia: "AU",
+      "saudi-arabien": "SA",
+      "saudi arabia": "SA",
+      ecuador: "EC",
+      katar: "QA",
+      qatar: "QA",
+      wales: "GB",
+      schottland: "GB",
+      scotland: "GB",
+      algeria: "DZ",
+      algerien: "DZ",
+      panama: "PA",
+    };
+
+    const code = countryMap[teamName.toLowerCase().trim()];
+    if (!code) return "⚽";
+
+    return String.fromCodePoint(
+      ...[...code.toUpperCase()].map((c) => 127397 + c.charCodeAt(0)),
+    );
+  }
+
   // --- Logic & Stats ---
 
   function calculateStats() {
@@ -204,7 +287,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "group rounded-xl border border-[#1f1f23] bg-black p-4 transition-all hover:border-zinc-700 hover:shadow-lg";
       div.innerHTML = `
                 <div class="flex items-center justify-between mb-3">
-                    <span class="text-sm font-bold text-white">${name}</span>
+                    <span class="text-sm font-bold text-white">${getFlagEmoji(name)} ${name}</span>
                     <div class="flex items-center gap-3">
                         <span class="text-[9px] font-bold text-zinc-500 uppercase tracking-widest bg-[#09090b] px-2 py-0.5 rounded">GPM: ${team.goalsPerMatch || 0}</span>
                         <button onclick="window.deleteTeam('${name}')" class="opacity-0 group-hover:opacity-100 text-zinc-500 hover:text-white transition-all transform hover:scale-110">
@@ -259,7 +342,10 @@ document.addEventListener("DOMContentLoaded", () => {
   function updateSelects() {
     const sortedTeams = Object.keys(appData.teams).sort();
     const options = sortedTeams
-      .map((name) => `<option value="${name}">${name}</option>`)
+      .map(
+        (name) =>
+          `<option value="${name}">${getFlagEmoji(name)} ${name}</option>`,
+      )
       .join("");
 
     homeTeamSelect.innerHTML =
@@ -289,7 +375,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="flex flex-col md:flex-row md:items-center justify-between gap-8">
                             <!-- Teams & Score Display -->
                             <div class="flex items-center justify-between md:justify-center gap-6 flex-1">
-                                <div class="text-right flex-1 text-base font-bold text-zinc-100 truncate tracking-tight">${match.home}</div>
+                                <div class="text-right flex-1 text-base font-bold text-zinc-100 truncate tracking-tight">${getFlagEmoji(match.home)}  ${match.home}</div>
                                 <div class="flex items-center gap-3">
                                     <input type="number" value="${match.homeScore !== null ? match.homeScore : ""}"
                                         placeholder="-"
@@ -301,7 +387,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                         class="h-12 w-12 rounded-lg border border-[#1f1f23] bg-black text-center text-lg font-bold text-white focus:border-white focus:outline-none transition-all ${isFinished ? "opacity-50" : ""}"
                                         onchange="window.updateMatchScore(${match.id}, 'away', this.value)">
                                 </div>
-                                <div class="text-left flex-1 text-base font-bold text-zinc-100 truncate tracking-tight">${match.away}</div>
+                                <div class="text-left flex-1 text-base font-bold text-zinc-100 truncate tracking-tight">${match.away}  ${getFlagEmoji(match.away)} </div>
                             </div>
 
                             <!-- Prediction & Interactive Elements -->
