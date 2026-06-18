@@ -10,6 +10,8 @@
 - **Cascading Deletions:** Strict data integrity. When a team is removed, the engine safely and automatically purges all related matches from the state.
 - **Minimalist Interface:** Radical monochrome design (Space Grotesk, Pitch Black). Features dynamic flag mapping (emoji conversion via ISO codes) and interactive, collapsible matchdays with animated SVG chevrons.
 
+![World Cup 2026 Prediction Model App Screenshot](media/p1.png)
+
 ## Quickstart
 
 Prerequisite: Python 3.10+
