@@ -139,6 +139,18 @@ document.addEventListener("DOMContentLoaded", () => {
       algeria: "DZ",
       algerien: "DZ",
       panama: "PA",
+      tschechien: "CZ",
+      czechia: "CZ",
+      südafrika: "ZA",
+      "south africa": "ZA",
+      bosnia: "BA",
+      bosnien: "BA",
+      usbekistan: "UZ",
+      uzbekistan: "UZ",
+      "DR Kongo": "CD",
+      "DR Congo": "CD",
+      colombia: "CO",
+      kolumbien: "CO",
     };
 
     const code = countryMap[teamName.toLowerCase().trim()];
@@ -148,6 +160,9 @@ document.addEventListener("DOMContentLoaded", () => {
       ...[...code.toUpperCase()].map((c) => 127397 + c.charCodeAt(0)),
     );
   }
+
+  // --- Local State ---
+  const collapsedMatchdays = {};
 
   // --- Logic & Stats ---
 
@@ -354,6 +369,11 @@ document.addEventListener("DOMContentLoaded", () => {
       '<option value="" disabled selected>Team 2 wählen</option>' + options;
   }
 
+  window.toggleMatchday = (day) => {
+    collapsedMatchdays[day] = !collapsedMatchdays[day];
+    renderMatches();
+  };
+
   function renderMatches() {
     matchesContainer.innerHTML = "";
     const groups = {};
@@ -421,12 +441,19 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .join("");
 
+      const isCollapsed = collapsedMatchdays[day];
+
       section.innerHTML = `
-                <div class="border-b border-[#1f1f23] bg-black/30 px-6 py-3 flex justify-between items-center">
-                    <span class="text-xs font-black uppercase tracking-[0.3em] text-white">${day}</span>
+                <div class="border-b border-[#1f1f23] bg-black/30 px-6 py-3 flex justify-between items-center cursor-pointer select-none" onclick="window.toggleMatchday('${day}')">
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-zinc-500 transition-transform duration-200 ${isCollapsed ? "-rotate-90" : "rotate-0"}" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                        <span class="text-xs font-black uppercase tracking-[0.3em] text-white">${day}</span>
+                    </div>
                     <span class="text-[10px] font-bold text-zinc-600 uppercase tracking-widest">${groups[day].length} Begegnungen</span>
                 </div>
-                <div>${matchesHtml}</div>
+                <div class="${isCollapsed ? "hidden" : ""}">${matchesHtml}</div>
             `;
       matchesContainer.appendChild(section);
     });
