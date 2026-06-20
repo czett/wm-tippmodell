@@ -145,25 +145,25 @@
         },
         {
             "away": "S\u00fcdafrika",
-            "awayScore": null,
+            "awayScore": 1,
             "home": "Tschechien",
-            "homeScore": null,
+            "homeScore": 1,
             "id": 1781789389966,
             "matchday": "ST2",
             "predictedAway": 0,
             "predictedHome": 1,
-            "status": "UPCOMING"
+            "status": "FINISHED"
         },
         {
             "away": "S\u00fcdkorea",
-            "awayScore": null,
+            "awayScore": 0,
             "home": "Mexiko",
-            "homeScore": null,
+            "homeScore": 1,
             "id": 1781789398894,
             "matchday": "ST2",
             "predictedAway": 1,
             "predictedHome": 1,
-            "status": "UPCOMING"
+            "status": "FINISHED"
         },
         {
             "away": "Bosnien",
@@ -189,25 +189,25 @@
         },
         {
             "away": "Bosnien",
-            "awayScore": null,
+            "awayScore": 1,
             "home": "Schweiz",
-            "homeScore": null,
+            "homeScore": 4,
             "id": 1781789758099,
             "matchday": "ST2",
             "predictedAway": 0,
             "predictedHome": 1,
-            "status": "UPCOMING"
+            "status": "FINISHED"
         },
         {
             "away": "Katar",
-            "awayScore": null,
+            "awayScore": 0,
             "home": "Kanada",
-            "homeScore": null,
+            "homeScore": 6,
             "id": 1781789763963,
             "matchday": "ST2",
             "predictedAway": 0,
             "predictedHome": 1,
-            "status": "UPCOMING"
+            "status": "FINISHED"
         },
         {
             "away": "Usbekistan",
@@ -254,15 +254,323 @@
             "status": "UPCOMING"
         },
         {
-            "id": 1781790960910,
-            "home": "Norwegen",
             "away": "Senegal",
-            "homeScore": null,
             "awayScore": null,
-            "status": "UPCOMING",
+            "home": "Norwegen",
+            "homeScore": null,
+            "id": 1781790960910,
             "matchday": "ST2",
+            "predictedAway": 1,
+            "predictedHome": 2,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "Brasilien",
+            "awayScore": 1,
+            "home": "Marokko",
+            "homeScore": 1,
+            "id": 1781802419371,
+            "matchday": "ST1",
+            "predictedAway": 1,
+            "predictedHome": 1,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Schottland",
+            "awayScore": 1,
+            "home": "Haiti",
+            "homeScore": 0,
+            "id": 1781802474126,
+            "matchday": "ST1",
+            "predictedAway": 1,
+            "predictedHome": 0,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Marokko",
+            "awayScore": 1,
+            "home": "Schottland",
+            "homeScore": 0,
+            "id": 1781802559803,
+            "matchday": "ST2",
+            "predictedAway": 1,
+            "predictedHome": 0,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Haiti",
+            "awayScore": 0,
+            "home": "Brasilien",
+            "homeScore": 3,
+            "id": 1781802567283,
+            "matchday": "ST2",
+            "predictedAway": 0,
+            "predictedHome": 2,
+            "status": "FINISHED"
+        },
+        {
+            "away": "T\u00fcrkei",
+            "awayScore": 0,
+            "home": "Australien",
+            "homeScore": 2,
+            "id": 1781875822534,
+            "matchday": "ST1",
+            "predictedAway": 1,
+            "predictedHome": 1,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Paraguay",
+            "awayScore": 1,
+            "home": "USA",
+            "homeScore": 4,
+            "id": 1781875838854,
+            "matchday": "ST1",
+            "predictedAway": 1,
+            "predictedHome": 1,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Australien",
+            "awayScore": 0,
+            "home": "USA",
+            "homeScore": 2,
+            "id": 1781875883120,
+            "matchday": "ST2",
+            "predictedAway": 1,
+            "predictedHome": 2,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Paraguay",
+            "awayScore": 1,
+            "home": "T\u00fcrkei",
+            "homeScore": 0,
+            "id": 1781875892984,
+            "matchday": "ST2",
+            "predictedAway": 0,
+            "predictedHome": 0,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Curacao",
+            "awayScore": 1,
+            "home": "Deutschland",
+            "homeScore": 7,
+            "id": 1781876078583,
+            "matchday": "ST1",
+            "predictedAway": 0,
+            "predictedHome": 3,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Elfenbeink\u00fcste",
+            "awayScore": 1,
+            "home": "Ecuador",
+            "homeScore": 0,
+            "id": 1781876093099,
+            "matchday": "ST1",
+            "predictedAway": 1,
+            "predictedHome": 1,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Elfenbeink\u00fcste",
+            "awayScore": null,
+            "home": "Deutschland",
+            "homeScore": null,
+            "id": 1781876140165,
+            "matchday": "ST2",
+            "predictedAway": 0,
+            "predictedHome": 4,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "Curacao",
+            "awayScore": null,
+            "home": "Ecuador",
+            "homeScore": null,
+            "id": 1781876146622,
+            "matchday": "ST2",
+            "predictedAway": 0,
+            "predictedHome": 1,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "Tunesien",
+            "awayScore": 1,
+            "home": "Schweden",
+            "homeScore": 5,
+            "id": 1781876244280,
+            "matchday": "ST1",
+            "predictedAway": 0,
+            "predictedHome": 1,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Niederlande",
+            "awayScore": 2,
+            "home": "Japan",
+            "homeScore": 2,
+            "id": 1781876263439,
+            "matchday": "ST1",
+            "predictedAway": 1,
+            "predictedHome": 1,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Schweden",
+            "awayScore": null,
+            "home": "Niederlande",
+            "homeScore": null,
+            "id": 1781876357457,
+            "matchday": "ST2",
+            "predictedAway": 2,
+            "predictedHome": 1,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "Japan",
+            "awayScore": null,
+            "home": "Tunesien",
+            "homeScore": null,
+            "id": 1781876366575,
+            "matchday": "ST2",
+            "predictedAway": 2,
+            "predictedHome": 0,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "\u00c4gypten",
+            "awayScore": 1,
+            "home": "Belgien",
+            "homeScore": 1,
+            "id": 1781876573970,
+            "matchday": "ST1",
+            "predictedAway": 0,
+            "predictedHome": 1,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Neuseeland",
+            "awayScore": 2,
+            "home": "Iran",
+            "homeScore": 2,
+            "id": 1781876584943,
+            "matchday": "ST1",
+            "predictedAway": 0,
+            "predictedHome": 1,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Iran",
+            "awayScore": null,
+            "home": "Belgien",
+            "homeScore": null,
+            "id": 1781876626577,
+            "matchday": "ST2",
+            "predictedAway": 1,
+            "predictedHome": 1,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "\u00c4gypten",
+            "awayScore": null,
+            "home": "Neuseeland",
+            "homeScore": null,
+            "id": 1781876637789,
+            "matchday": "ST2",
+            "predictedAway": 1,
+            "predictedHome": 1,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "Kap Verde",
+            "awayScore": 0,
+            "home": "Spanien",
+            "homeScore": 0,
+            "id": 1781876742424,
+            "matchday": "ST1",
+            "predictedAway": 0,
+            "predictedHome": 3,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Uruguay",
+            "awayScore": 1,
+            "home": "Saudi Arabien",
+            "homeScore": 1,
+            "id": 1781876752531,
+            "matchday": "ST1",
+            "predictedAway": 1,
+            "predictedHome": 0,
+            "status": "FINISHED"
+        },
+        {
+            "away": "Saudi Arabien",
+            "awayScore": null,
+            "home": "Spanien",
+            "homeScore": null,
+            "id": 1781876789884,
+            "matchday": "ST2",
+            "predictedAway": 0,
+            "predictedHome": 1,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "Kap Verde",
+            "awayScore": null,
+            "home": "Uruguay",
+            "homeScore": null,
+            "id": 1781876797349,
+            "matchday": "ST2",
+            "predictedAway": 0,
+            "predictedHome": 2,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "Kanada",
+            "awayScore": null,
+            "home": "Schweiz",
+            "homeScore": null,
+            "id": 1781877238154,
+            "matchday": "ST3",
+            "predictedAway": 2,
+            "predictedHome": 1,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "Katar",
+            "awayScore": null,
+            "home": "Bosnien",
+            "homeScore": null,
+            "id": 1781877252464,
+            "matchday": "ST3",
+            "predictedAway": 0,
+            "predictedHome": 1,
+            "status": "UPCOMING"
+        },
+        {
+            "away": "Mexiko",
+            "awayScore": null,
+            "home": "Tschechien",
+            "homeScore": null,
+            "id": 1781877374477,
+            "matchday": "ST3",
+            "predictedAway": null,
             "predictedHome": null,
-            "predictedAway": null
+            "status": "UPCOMING"
+        },
+        {
+            "away": "S\u00fcdkorea",
+            "awayScore": null,
+            "home": "S\u00fcdafrika",
+            "homeScore": null,
+            "id": 1781877380143,
+            "matchday": "ST3",
+            "predictedAway": null,
+            "predictedHome": null,
+            "status": "UPCOMING"
         }
     ],
     "teams": {
@@ -278,17 +586,59 @@
             "matchesPlayed": 1,
             "rating": 93
         },
-        "Bosnien": {
+        "Australien": {
+            "goalsPerMatch": "1.00",
+            "goalsScored": 2,
+            "matchesPlayed": 2,
+            "rating": 73
+        },
+        "Belgien": {
             "goalsPerMatch": "1.00",
             "goalsScored": 1,
             "matchesPlayed": 1,
+            "rating": 83
+        },
+        "Bosnien": {
+            "goalsPerMatch": "1.00",
+            "goalsScored": 2,
+            "matchesPlayed": 2,
             "rating": 71
+        },
+        "Brasilien": {
+            "goalsPerMatch": "2.00",
+            "goalsScored": 4,
+            "matchesPlayed": 2,
+            "rating": 85
+        },
+        "Curacao": {
+            "goalsPerMatch": "1.00",
+            "goalsScored": 1,
+            "matchesPlayed": 1,
+            "rating": 42
         },
         "DR Kongo": {
             "goalsPerMatch": "1.00",
             "goalsScored": 1,
             "matchesPlayed": 1,
             "rating": 70
+        },
+        "Deutschland": {
+            "goalsPerMatch": "7.00",
+            "goalsScored": 7,
+            "matchesPlayed": 1,
+            "rating": 88
+        },
+        "Ecuador": {
+            "goalsPerMatch": "0.00",
+            "goalsScored": 0,
+            "matchesPlayed": 1,
+            "rating": 73
+        },
+        "Elfenbeink\u00fcste": {
+            "goalsPerMatch": "1.00",
+            "goalsScored": 1,
+            "matchesPlayed": 1,
+            "rating": 72
         },
         "England": {
             "goalsPerMatch": "4.00",
@@ -308,11 +658,29 @@
             "matchesPlayed": 1,
             "rating": 70
         },
+        "Haiti": {
+            "goalsPerMatch": "0.00",
+            "goalsScored": 0,
+            "matchesPlayed": 2,
+            "rating": 45
+        },
         "Irak": {
             "goalsPerMatch": "1.00",
             "goalsScored": 1,
             "matchesPlayed": 1,
             "rating": 45
+        },
+        "Iran": {
+            "goalsPerMatch": "2.00",
+            "goalsScored": 2,
+            "matchesPlayed": 1,
+            "rating": 65
+        },
+        "Japan": {
+            "goalsPerMatch": "2.00",
+            "goalsScored": 2,
+            "matchesPlayed": 1,
+            "rating": 76
         },
         "Jordanien": {
             "goalsPerMatch": "1.00",
@@ -321,15 +689,21 @@
             "rating": 42
         },
         "Kanada": {
-            "goalsPerMatch": "1.00",
-            "goalsScored": 1,
-            "matchesPlayed": 1,
+            "goalsPerMatch": "3.50",
+            "goalsScored": 7,
+            "matchesPlayed": 2,
             "rating": 80
         },
-        "Katar": {
-            "goalsPerMatch": "1.00",
-            "goalsScored": 1,
+        "Kap Verde": {
+            "goalsPerMatch": "0.00",
+            "goalsScored": 0,
             "matchesPlayed": 1,
+            "rating": 44
+        },
+        "Katar": {
+            "goalsPerMatch": "0.50",
+            "goalsScored": 1,
+            "matchesPlayed": 2,
             "rating": 63
         },
         "Kolumbien": {
@@ -344,11 +718,29 @@
             "matchesPlayed": 1,
             "rating": 81
         },
+        "Marokko": {
+            "goalsPerMatch": "1.00",
+            "goalsScored": 2,
+            "matchesPlayed": 2,
+            "rating": 75
+        },
         "Mexiko": {
+            "goalsPerMatch": "1.50",
+            "goalsScored": 3,
+            "matchesPlayed": 2,
+            "rating": 84
+        },
+        "Neuseeland": {
             "goalsPerMatch": "2.00",
             "goalsScored": 2,
             "matchesPlayed": 1,
-            "rating": 84
+            "rating": 47
+        },
+        "Niederlande": {
+            "goalsPerMatch": "2.00",
+            "goalsScored": 2,
+            "matchesPlayed": 1,
+            "rating": 85
         },
         "Norwegen": {
             "goalsPerMatch": "4.00",
@@ -362,16 +754,40 @@
             "matchesPlayed": 1,
             "rating": 58
         },
+        "Paraguay": {
+            "goalsPerMatch": "1.00",
+            "goalsScored": 2,
+            "matchesPlayed": 2,
+            "rating": 72
+        },
         "Portugal": {
             "goalsPerMatch": "1.00",
             "goalsScored": 1,
             "matchesPlayed": 1,
             "rating": 88
         },
-        "Schweiz": {
+        "Saudi Arabien": {
             "goalsPerMatch": "1.00",
             "goalsScored": 1,
             "matchesPlayed": 1,
+            "rating": 55
+        },
+        "Schottland": {
+            "goalsPerMatch": "0.50",
+            "goalsScored": 1,
+            "matchesPlayed": 2,
+            "rating": 65
+        },
+        "Schweden": {
+            "goalsPerMatch": "5.00",
+            "goalsScored": 5,
+            "matchesPlayed": 1,
+            "rating": 75
+        },
+        "Schweiz": {
+            "goalsPerMatch": "2.50",
+            "goalsScored": 5,
+            "matchesPlayed": 2,
             "rating": 82
         },
         "Senegal": {
@@ -380,19 +796,49 @@
             "matchesPlayed": 1,
             "rating": 76
         },
-        "S\u00fcdafrika": {
+        "Spanien": {
             "goalsPerMatch": "0.00",
             "goalsScored": 0,
             "matchesPlayed": 1,
+            "rating": 88
+        },
+        "S\u00fcdafrika": {
+            "goalsPerMatch": "0.50",
+            "goalsScored": 1,
+            "matchesPlayed": 2,
             "rating": 65
         },
         "S\u00fcdkorea": {
-            "goalsPerMatch": "2.00",
+            "goalsPerMatch": "1.00",
             "goalsScored": 2,
-            "matchesPlayed": 1,
+            "matchesPlayed": 2,
             "rating": 76
         },
         "Tschechien": {
+            "goalsPerMatch": "1.00",
+            "goalsScored": 2,
+            "matchesPlayed": 2,
+            "rating": 78
+        },
+        "Tunesien": {
+            "goalsPerMatch": "1.00",
+            "goalsScored": 1,
+            "matchesPlayed": 1,
+            "rating": 60
+        },
+        "T\u00fcrkei": {
+            "goalsPerMatch": "0.00",
+            "goalsScored": 0,
+            "matchesPlayed": 2,
+            "rating": 79
+        },
+        "USA": {
+            "goalsPerMatch": "3.00",
+            "goalsScored": 6,
+            "matchesPlayed": 2,
+            "rating": 77
+        },
+        "Uruguay": {
             "goalsPerMatch": "1.00",
             "goalsScored": 1,
             "matchesPlayed": 1,
@@ -403,6 +849,12 @@
             "goalsScored": 1,
             "matchesPlayed": 1,
             "rating": 66
+        },
+        "\u00c4gypten": {
+            "goalsPerMatch": "1.00",
+            "goalsScored": 1,
+            "matchesPlayed": 1,
+            "rating": 64
         },
         "\u00d6sterreich": {
             "goalsPerMatch": "3.00",
