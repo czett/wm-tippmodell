@@ -2,6 +2,13 @@
 
 > Ein hochpräzises, lokales Tool zur Vorhersage von Spielergebnissen basierend auf Poisson-Verteilungen. Minimalistisches Design im Dark Mode.
 
+---
+
+### 📖 [Ausführliche Installations- & Einrichtungsanleitung (Setup)](setup.md)
+*Für eine detaillierte Schritt-für-Schritt-Anleitung und Fehlerbehebung.*
+
+---
+
 ## Features
 
 - **100% lokal & autonom:** Datenpersistenz ohne Latenz über eine lokale `data.json`. Keine externen Datenbanken, keine API-Abhängigkeiten.
